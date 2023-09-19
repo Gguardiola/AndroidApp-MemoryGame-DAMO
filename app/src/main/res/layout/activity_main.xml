@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="fill_horizontal"
+            android:fontFamily="sans-serif-black"
+            android:text="Memory Game"
+            android:textAlignment="center"
+            android:textSize="20sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="25dp" />
+
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="729dp">
+
+            <TableRow
+                android:layout_width="88dp"
+                android:layout_height="100dp">
+
+                <ImageButton
+                    android:id="@+id/image_btn1_1"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn1_2"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn1_3"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn1_4"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn1_5"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn1_6"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/image_btn2_1"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn2_2"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn2_3"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn2_4"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn2_5"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn2_6"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/image_btn3_1"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn3_2"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn3_3"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn3_4"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn3_5"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn3_6"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/image_btn4_1"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn4_2"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn4_3"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn4_4"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn4_5"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn4_6"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/image_btn5_1"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn5_2"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn5_3"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn5_4"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn5_5"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn5_6"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageButton
+                    android:id="@+id/image_btn6_1"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn6_2"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn6_3"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn6_4"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn6_5"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+
+                <ImageButton
+                    android:id="@+id/image_btn6_6"
+                    android:layout_width="68dp"
+                    android:layout_height="68dp"
+                    android:adjustViewBounds="false"
+                    android:cropToPadding="false"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/monster_portrait_air" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
