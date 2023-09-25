@@ -93,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
                             lastCard.setImageResource(R.drawable.monster_portrait_prize);
                             lastCard = null;
                         }
-                    }, 2000);
+                    }, 1000);
                 }
                 isTurnActive = false;
             }
@@ -177,7 +177,7 @@ public class MainActivity extends AppCompatActivity {
         mp2.setOnLoadCompleteListener(new SoundPool.OnLoadCompleteListener() {
             @Override
             public void onLoadComplete(SoundPool soundPool, int sample, int status) {
-                soundPool.play(sample, currentVolume, currentVolume, 0, -1, 1);
+                soundPool.play(sample, 10.0f, 10.0f, 0, -1, 1);
             }
         });
 
